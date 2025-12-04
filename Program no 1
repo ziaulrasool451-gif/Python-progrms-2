@@ -1,0 +1,18 @@
+countries = {
+    "Pakistan": "Islamabad",
+    "India": "New Delhi",
+    "China": "Beijing",
+    "Japan": "Tokyo",
+    "Nepal": "Kathmandu"
+}
+keys = list(countries.keys())
+i = 0
+while i < len(keys):
+    print(keys[i])
+    i += 1
+Output::
+Pakistan
+India
+China
+Japan
+Nepal
