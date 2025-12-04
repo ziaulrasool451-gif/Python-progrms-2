@@ -1,0 +1,18 @@
+products = {
+    "Phone": 800,
+    "Laptop": 1200,
+    "Watch": 250,
+    "Tablet": 600,
+    "Camera": 900
+}
+keys = list(products.keys())
+i = 0
+highest = keys[0]
+
+while i < len(keys):
+    if products[keys[i]] > products[highest]:
+        highest = keys[i]
+    i += 1
+print("Highest price product:", highest)
+Output::
+Highest price product: Laptop
