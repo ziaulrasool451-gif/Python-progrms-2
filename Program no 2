@@ -1,0 +1,17 @@
+students = {
+    "Ali": 85,
+    "Hassan": 55,
+    "Sara": 40,
+    "John": 92,
+    "Maryam": 59
+}
+names = list(students.keys())
+i = 0
+while i < len(names):
+    if students[names[i]] < 60:
+        print(names[i])
+    i += 1
+Output::
+Hassan
+Sara
+Maryam
