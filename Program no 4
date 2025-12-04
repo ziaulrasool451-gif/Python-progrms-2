@@ -1,0 +1,17 @@
+employees = {
+    "Ali": 35,
+    "John": 42,
+    "Hina": 50,
+    "Mark": 28,
+    "Sara": 45
+}
+keys = list(employees.keys())
+i = 0
+count = 0
+while i < len(keys):
+    if employees[keys[i]] > 40:
+        count += 1
+    i += 1
+print("Employees older than 40:", count)
+Output::
+Employees older than 40: 3
