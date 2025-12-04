@@ -1,0 +1,16 @@
+items = {
+    "Sugar": 5,
+    "Oil": 0,
+    "Rice": 10,
+    "Salt": 0,
+    "Flour": 15
+}
+keys = list(items.keys())
+i = 0
+while i < len(keys):
+    if items[keys[i]] == 0:
+        print(keys[i])
+    i += 1
+Output::
+Oil
+Salt
