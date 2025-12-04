@@ -1,0 +1,17 @@
+books = {
+    "Book A": 150,
+    "Book B": 220,
+    "Book C": 300,
+    "Book D": 180,
+    "Book E": 250
+}
+keys = list(books.keys())
+i = 0
+while i < len(keys):
+    if books[keys[i]] > 200:
+        print(keys[i])
+    i += 1
+Output::
+Book B
+Book C
+Book E
