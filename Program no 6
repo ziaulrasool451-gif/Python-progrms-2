@@ -1,0 +1,18 @@
+movies = {
+    "Avatar": 2009,
+    "Inception": 2010,
+    "Titanic": 1997,
+    "Matrix": 1999,
+    "Up": 2009
+}
+keys = list(movies.keys())
+i = 0
+while i < len(keys):
+    if movies[keys[i]] < 2010:
+        print(keys[i])
+    i += 1
+Output::
+Avatar
+Titanic
+Matrix
+Up
