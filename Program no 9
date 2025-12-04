@@ -1,0 +1,17 @@
+animals = {
+    "Dog": 13,
+    "Cat": 15,
+    "Elephant": 60,
+    "Rabbit": 9,
+    "Parrot": 50
+}
+keys = list(animals.keys())
+i = 0
+shortest = keys[0]
+while i < len(keys):
+    if animals[keys[i]] < animals[shortest]:
+        shortest = keys[i]
+    i += 1
+print("Animal with shortest lifespan:", shortest)
+Output::
+Animal with shortest lifespan: Rabbit
