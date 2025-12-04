@@ -1,0 +1,17 @@
+cities = {
+    "Karachi": 34,
+    "Lahore": 29,
+    "Islamabad": 28,
+    "Dubai": 40,
+    "Delhi": 35
+}
+keys = list(cities.keys())
+i = 0
+while i < len(keys):
+    if cities[keys[i]] > 30:
+        print(keys[i])
+    i += 1
+Output::
+Karachi
+Dubai
+Delhi
