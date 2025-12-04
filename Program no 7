@@ -1,0 +1,17 @@
+users = {
+    "user1": "pass123",
+    "user2": "longpassword12",
+    "admin": "securepass99",
+    "test": "abc",
+    "zoha": "mypassword"
+}
+keys = list(users.keys())
+i = 0
+while i < len(keys):
+    if len(users[keys[i]]) > 8:
+        print(keys[i])
+    i += 1
+Output::
+user2
+admin
+zoha
